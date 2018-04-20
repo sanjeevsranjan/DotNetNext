@@ -1,0 +1,19 @@
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Teacher Name</th>
+        <th>Age</th>
+       
+      </tr>
+    </thead>
+    <tbody *ngFor="let teacher of teachers">
+      <tr>
+        <td>{{teacher.teacherName}}</td>
+        <td>{{teacher.age}}</td>
+       
+      </tr>
+     
+    </tbody>
+  </table>
+

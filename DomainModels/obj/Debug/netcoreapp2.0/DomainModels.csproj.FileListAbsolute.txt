@@ -1,0 +1,36 @@
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.deps.json
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.deps.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.deps.json
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.deps.json
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\bin\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.AssemblyInfo.cs
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\DomainModels\obj\Debug\netcoreapp2.0\DomainModels.pdb
