@@ -1,0 +1,23 @@
+<div style="margin-left:10%;margin-right:10%;">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Employee ID</th>
+        <th scope="col">Employee Name</th>
+        <th scope="col">City</th>
+        <th scope="col">Joining Date</th>
+        <th scope="col">Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        
+        <td>{{employee.employeeID}}</td>
+        <td>{{employee.employeeName}}</td>
+        <td>{{employee.city}}</td>
+        <td>{{employee.joiningDate | date: 'dd/MM/yyyy'}}</td>
+        <td>{{employee.salary}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>

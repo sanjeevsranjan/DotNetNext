@@ -1,0 +1,11 @@
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\bin\Release\netcoreapp2.0\AngularClient.deps.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\bin\Release\netcoreapp2.0\AngularClient.runtimeconfig.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\bin\Release\netcoreapp2.0\AngularClient.runtimeconfig.dev.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\bin\Release\netcoreapp2.0\AngularClient.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\bin\Release\netcoreapp2.0\AngularClient.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Release\netcoreapp2.0\AngularClient.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Release\netcoreapp2.0\AngularClient.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Release\netcoreapp2.0\AngularClient.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Release\netcoreapp2.0\AngularClient.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Release\netcoreapp2.0\AngularClient.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Release\netcoreapp2.0\AngularClient.pdb

@@ -31,7 +31,7 @@ namespace DAL.Migrations
 
                     b.Property<bool>("IsActive");
 
-                    b.Property<string>("JoiningDate");
+                    b.Property<DateTime>("JoiningDate");
 
                     b.Property<int>("Salary");
 

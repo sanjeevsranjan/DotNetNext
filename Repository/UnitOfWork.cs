@@ -53,6 +53,19 @@ namespace Repository
             }
         }
 
+        private IRepository<Employee> _EmployeeRepo;
+        public IRepository<Employee> EmployeeRepo
+        {
+            get
+            {
+                if (_EmployeeRepo == null)
+                    _EmployeeRepo = new Repository<Employee>(db);
+
+                return _EmployeeRepo;
+            }
+        }
+
+
 
         public int SaveChanges()
         {

@@ -10,7 +10,7 @@ namespace DomainModels.Entities
         public string EmployeeName { get; set; }
         public int Salary { get; set; }
         public string City { get; set; }
-        public string JoiningDate { get; set; }
+        public DateTime JoiningDate { get; set; }
         public bool IsActive { get; set; }
     }
 }

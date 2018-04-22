@@ -19,6 +19,8 @@ import { HomeComponent } from './home/home.component';
 import { AuthGuard } from './auth/auth.guard';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { AboutusComponent } from './aboutus/aboutus/aboutus.component';
+import { EmployeeService } from './shared/employee.service';
+import { EmployeeComponent } from './employee/employee.component';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { AboutusComponent } from './aboutus/aboutus/aboutus.component';
     UserListComponent,
     SignInComponent,
     HomeComponent,
-    AboutusComponent
+    AboutusComponent,
+    EmployeeComponent
     
   ],
   imports: [
@@ -41,7 +44,7 @@ import { AboutusComponent } from './aboutus/aboutus/aboutus.component';
     BrowserAnimationsModule,
     AppRoutingModule
   ],
-  providers: [UserService,AppRoutingModule,TeacherService,AuthGuard],
+  providers: [UserService,EmployeeService,AppRoutingModule,TeacherService,AuthGuard],
   // providers: [UserService,AuthGuard,AppRoutingModule,TeacherService
   //   ,
   //   {

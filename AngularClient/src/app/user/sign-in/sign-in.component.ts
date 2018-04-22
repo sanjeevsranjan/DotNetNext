@@ -17,22 +17,11 @@ export class SignInComponent implements OnInit {
   ngOnInit() {
   }
 
-  // OnSubmit(userName,password){
-  //  console.log("fffddd");
-  //  console.log(userName);
-  //    this.userService.userAuthentication(userName,password).subscribe((data : any)=>{
-  //     localStorage.setItem('userToken',data.token);
-  //     this.router.navigate(['/home']);
-  //   },
-  //   (err : HttpErrorResponse)=>{
-  //     this.isLoginError = true;
-  //   });
-  // }
-
   OnSubmit(form: NgForm){
      debugger;
       this.userService.userAuthentication(form.value).subscribe((data : any)=>{
        localStorage.setItem('userToken',data.token);
+       location.reload();
      // let IsLoggedIn:boolean=true;
        this.router.navigate(['/home']);
      },

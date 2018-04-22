@@ -11,6 +11,7 @@ namespace Repository
         IRepository<Student> StudentRepo { get; }
         IRepository<Teacher> TeacherRepo { get; }
         IRepository<User> UserRepo { get; }
+        IRepository<Employee> EmployeeRepo { get; }
 
         int SaveChanges();
     }

@@ -1,0 +1,11 @@
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\bin\Release\netcoreapp2.0\DAL.deps.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\bin\Release\netcoreapp2.0\DAL.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\bin\Release\netcoreapp2.0\DAL.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\bin\Release\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\bin\Release\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\obj\Release\netcoreapp2.0\DAL.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\obj\Release\netcoreapp2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\obj\Release\netcoreapp2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\obj\Release\netcoreapp2.0\DAL.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\obj\Release\netcoreapp2.0\DAL.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DAL\obj\Release\netcoreapp2.0\DAL.pdb
