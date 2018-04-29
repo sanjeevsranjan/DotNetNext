@@ -22,7 +22,7 @@ export class UserService {
   }
 
   userAuthentication(user : User) {
-    debugger;
+    
     var data ='{"Username":"'+user.UserName+'", "password":"'+user.Password+'"}';
     var reqHeader = new HttpHeaders({ 'Content-Type': 'application/json'});
     return this.http.post(this.rootUrl + '/api/token', data, { headers: reqHeader });

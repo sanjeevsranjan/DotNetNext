@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import {  Response } from "@angular/http";
+import {  Response, RequestOptions } from "@angular/http";
 import {Observable} from 'rxjs';
 import 'rxjs/add/operator/map';
 import { Employee } from './employee.model';
@@ -36,4 +36,10 @@ export class EmployeeService {
    {
      return this.http.get(this.rootUrl+'/api/Employee')
    }
+
+   RemoveEmployee(id)
+   {
+    this.http.delete(this.rootUrl+'/api/Employee/'+ id).subscribe(res => console.log());
+   }
+
 }

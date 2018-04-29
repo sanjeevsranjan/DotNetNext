@@ -9,6 +9,5 @@ namespace DomainModels.Entities
         public int EmployeeContactID { get; set; }
         public string Address { get; set; }
         public string Phone { get; set; }
-        public Employee Employee { get; set; }
     }
 }

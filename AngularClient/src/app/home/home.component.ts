@@ -13,11 +13,11 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router, private userService: UserService) { }
   ngOnInit() {
    
-    if(localStorage.getItem('userToken')!=null)
+    if(sessionStorage.getItem('userToken')!=null)
     {
        this.displayLogout=true;
     }
-    debugger;
+   
     this.userService.getUserClaims().subscribe((data: any) => {
      
       this.userClaims = data;
@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
 
   Logout() {
    
-    localStorage.removeItem('userToken');
+    sessionStorage.removeItem('userToken');
     this.router.navigate(['/login']);
   }
 

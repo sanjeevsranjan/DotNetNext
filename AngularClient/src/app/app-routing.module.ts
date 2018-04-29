@@ -20,7 +20,7 @@ const routes: Routes = [
     {path: 'login', component: SignInComponent},
     {path: 'aboutus', component: AboutusComponent},
     {path: 'userlist', component: UserListComponent,canActivate:[AuthGuard]},
-    {path: 'employee', component: EmployeeComponent}
+    {path: 'employee', component: EmployeeComponent,canActivate:[AuthGuard]}
     
    
 ];

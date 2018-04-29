@@ -18,9 +18,9 @@ export class SignInComponent implements OnInit {
   }
 
   OnSubmit(form: NgForm){
-     debugger;
+     
       this.userService.userAuthentication(form.value).subscribe((data : any)=>{
-       localStorage.setItem('userToken',data.token);
+      sessionStorage.setItem('userToken',data.token);
        location.reload();
      // let IsLoggedIn:boolean=true;
        this.router.navigate(['/home']);

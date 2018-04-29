@@ -16,14 +16,14 @@ export class AppComponent implements OnInit {
 
   ngOnInit()
   {
-    if(localStorage.getItem('userToken')!=null)
+    if(sessionStorage.getItem('userToken')!=null)
     {
        this.IsLoggedIn=true;
        this.displayLogout=true;
     }
   }
   Logout() {
-    localStorage.removeItem('userToken');
+    sessionStorage.removeItem('userToken');
     location.reload();
     this.router.navigate(['/login']);
 

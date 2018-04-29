@@ -1,7 +1,16 @@
+
+
 <div style="margin-left:10%;margin-right:10%;">
+
 <table class="table table-striped">
     <thead>
       <tr>
+        
+        <th scope="col">
+            <input type="checkbox" (change)="isSelected = !isSelected"> Select all
+            <!-- <input type="checkbox"/> -->
+        </th>
+        <th scope="col">Delete</th>
         <th scope="col">Employee ID</th>
         <th scope="col">Employee Name</th>
         <th scope="col">City</th>
@@ -11,8 +20,13 @@
     </thead>
     <tbody>
       <tr *ngFor="let employee of employees">
-        
-        <td>{{employee.employeeID}}</td>
+       <!-- <td>
+        <input type="checkbox" [checked]="isSelected" (change)="checkbox(employee.employeeID)"> -->
+        <td><input [(ngModel)]="employee.selected" type="checkbox" [checked]="isSelected" (click)="selectID(employee.employeeID)"></td>
+         <!-- <input type="checkbox"/> -->
+         <td><button type="button" class="btn btn-danger" (click)="deleteemployee(employee.employeeID)" value="{{employee.employeeID}}">Delete</button></td>
+       <!-- </td> -->
+        <td>{{employee.employeeID}} </td>
         <td>{{employee.employeeName}}</td>
         <td>{{employee.city}}</td>
         <td>{{employee.joiningDate | date: 'dd/MM/yyyy'}}</td>
@@ -20,4 +34,8 @@
       </tr>
     </tbody>
   </table>
-  </div>
+
+  <!-- <button type="button" class="btn btn-danger" (click)="deleteemployee(employee)">Delete</button> -->
+  <!-- <button type="button" class="btn btn-danger">Delete</button> -->
+  <button (click)="deleteSelected()">DeleteSelectedEmployee</button>
+</div>

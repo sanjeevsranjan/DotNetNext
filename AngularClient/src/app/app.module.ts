@@ -43,6 +43,7 @@ import { EmployeeComponent } from './employee/employee.component';
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
     AppRoutingModule
+    
   ],
   providers: [UserService,EmployeeService,AppRoutingModule,TeacherService,AuthGuard],
   // providers: [UserService,AuthGuard,AppRoutingModule,TeacherService
