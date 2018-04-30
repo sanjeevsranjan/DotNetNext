@@ -21,6 +21,8 @@ import { AuthInterceptor } from './auth/auth.interceptor';
 import { AboutusComponent } from './aboutus/aboutus/aboutus.component';
 import { EmployeeService } from './shared/employee.service';
 import { EmployeeComponent } from './employee/employee.component';
+import { SearchPipe } from './employee/employee.pipe';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { EmployeeComponent } from './employee/employee.component';
     SignInComponent,
     HomeComponent,
     AboutusComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    SearchPipe
     
   ],
   imports: [
@@ -42,7 +45,9 @@ import { EmployeeComponent } from './employee/employee.component';
     HttpClientModule,
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPaginationModule
+    
     
   ],
   providers: [UserService,EmployeeService,AppRoutingModule,TeacherService,AuthGuard],

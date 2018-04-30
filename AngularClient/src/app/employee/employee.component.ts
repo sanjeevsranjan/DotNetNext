@@ -13,6 +13,7 @@ import { DatePipe } from '@angular/common';
 })
 export class EmployeeComponent implements OnInit {
   names: any;
+  p: number = 1;
   selectedEmployee : Employee[];
   SelectedIDs:any[]=[];
   selectedAll: any;

@@ -1,7 +1,23 @@
 
 
 <div style="margin-left:10%;margin-right:10%;">
+  <input type="text" class="form-control" placeholder="Search" [(ngModel)]="query" id="listSearch">
+ <br>
+  <div>
+    Search By City
+    <select [(ngModel)]="query">
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Hyderabad">Hyderabad</option>
+   </select>
+   <!-- Search By Name
+   <select [(ngModel)]="query">
+       <option value="Suman">Suman</option>
+       <option value="Sanjeev Ranjan">Sanjeev Ranjan</option>
+  </select> -->
+</div>
 
+<br>
 <table class="table table-striped">
     <thead>
       <tr>
@@ -19,7 +35,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let employee of employees">
+      <tr *ngFor="let employee of employees | employeepipe: query | paginate: { itemsPerPage: 4, currentPage: p }">
        <!-- <td>
         <input type="checkbox" [checked]="isSelected" (change)="checkbox(employee.employeeID)"> -->
         <td><input [(ngModel)]="employee.selected" type="checkbox" [checked]="isSelected" (click)="selectID(employee.employeeID)"></td>
@@ -33,6 +49,16 @@
         <td>{{employee.salary}}</td>
       </tr>
     </tbody>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination" (pageChange)="p = $event">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li *ngFor="let x of 10" class="page-item"><a class="page-link" href="#">{{x}}</a></li>
+          <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
   </table>
 
   <!-- <button type="button" class="btn btn-danger" (click)="deleteemployee(employee)">Delete</button> -->
