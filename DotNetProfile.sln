@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModels", "DomainModel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{B71D050F-E2D5-46AB-93EC-30C9DC0BECE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularClient", "AngularClient\AngularClient.csproj", "{3BA0842B-A6E5-49C8-983B-784A4E00E4CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularClient", "AngularClient\AngularClient.csproj", "{3BA0842B-A6E5-49C8-983B-784A4E00E4CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNextClient", "DotNetNextClient\DotNetNextClient.csproj", "{31A42B86-F452-4241-BA14-9C21454C296E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3BA0842B-A6E5-49C8-983B-784A4E00E4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA0842B-A6E5-49C8-983B-784A4E00E4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA0842B-A6E5-49C8-983B-784A4E00E4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A42B86-F452-4241-BA14-9C21454C296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A42B86-F452-4241-BA14-9C21454C296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A42B86-F452-4241-BA14-9C21454C296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A42B86-F452-4241-BA14-9C21454C296E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,6 +20,34 @@ namespace DAL.Migrations
                 .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("DomainModels.Entities.City", b =>
+                {
+                    b.Property<int>("CityID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CityName");
+
+                    b.Property<int?>("StateID");
+
+                    b.HasKey("CityID");
+
+                    b.HasIndex("StateID");
+
+                    b.ToTable("City");
+                });
+
+            modelBuilder.Entity("DomainModels.Entities.Country", b =>
+                {
+                    b.Property<int>("CountryID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CountryName");
+
+                    b.HasKey("CountryID");
+
+                    b.ToTable("Country");
+                });
+
             modelBuilder.Entity("DomainModels.Entities.Employee", b =>
                 {
                     b.Property<int>("EmployeeID")
@@ -58,6 +86,22 @@ namespace DAL.Migrations
                     b.ToTable("EmployeeContact");
                 });
 
+            modelBuilder.Entity("DomainModels.Entities.State", b =>
+                {
+                    b.Property<int>("StateID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("CountryID");
+
+                    b.Property<string>("StateName");
+
+                    b.HasKey("StateID");
+
+                    b.HasIndex("CountryID");
+
+                    b.ToTable("State");
+                });
+
             modelBuilder.Entity("DomainModels.Entities.User", b =>
                 {
                     b.Property<int>("ID")
@@ -78,11 +122,25 @@ namespace DAL.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("DomainModels.Entities.City", b =>
+                {
+                    b.HasOne("DomainModels.Entities.State", "State")
+                        .WithMany()
+                        .HasForeignKey("StateID");
+                });
+
             modelBuilder.Entity("DomainModels.Entities.EmployeeContact", b =>
                 {
                     b.HasOne("DomainModels.Entities.Employee", "Employee")
                         .WithMany()
                         .HasForeignKey("EmployeeID");
+                });
+
+            modelBuilder.Entity("DomainModels.Entities.State", b =>
+                {
+                    b.HasOne("DomainModels.Entities.Country", "Country")
+                        .WithMany()
+                        .HasForeignKey("CountryID");
                 });
 #pragma warning restore 612, 618
         }
