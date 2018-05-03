@@ -13,6 +13,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { AsideComponent } from './aside/aside.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { AppLayoutComponent } from './app-layout/app-layout.component';
+import { SiteLayoutComponent } from './site-layout/site-layout.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { FooterComponent } from './footer/footer.component';
     StatisticsComponent,
     AsideComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    AppLayoutComponent,
+    SiteLayoutComponent
     
   ],
   imports: [

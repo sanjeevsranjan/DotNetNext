@@ -26,18 +26,51 @@ import { ngModuleJitUrl } from '@angular/compiler';
 
 import { ContactusComponent} from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
+import { SiteLayoutComponent } from './site-layout/site-layout.component';
+import { AppLayoutComponent } from './app-layout/app-layout.component';
+import { AppComponent } from './app.component';
 
-const routes: Routes = [
+// const routes: Routes = [
     
-    {path: 'contactus', component: ContactusComponent},
-    {path: 'home', component: HomeComponent}
+//     {path: 'contactus', component: ContactusComponent},
+//     {path: 'home', component: HomeComponent}
     
    
+// ];
+
+const appRoutes: Routes = [
+    
+    //Site routes goes here 
+    { 
+        path: '', 
+        component: SiteLayoutComponent,
+        children: [
+             { path: 'home', component:HomeComponent, pathMatch: 'full'}
+            // { path: '', component: SiteLayoutComponent },
+        //   { path: 'test/:id', component: AboutComponent }
+        ]
+    },
+    
+    // App routes goes here here
+    { 
+        path: '',
+        component: AppLayoutComponent, 
+        children: [
+             { path: 'contactus', component: ContactusComponent },
+        //   { path: 'profile', component: ProfileComponent }
+        ]
+    },
+
+    //no layout routes
+    // { path: 'login', component: LoginComponent},
+    // { path: 'register', component: RegisterComponent },
+    // otherwise redirect to home
+    { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
     imports:[
-        RouterModule.forRoot(routes),
+        RouterModule.forRoot(appRoutes),
         RouterModule
     ],
 
