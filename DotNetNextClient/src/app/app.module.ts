@@ -11,6 +11,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { WhatwedoComponent } from './whatwedo/whatwedo.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { AsideComponent } from './aside/aside.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,13 +24,16 @@ import { AsideComponent } from './aside/aside.component';
     CarouselComponent,
     WhatwedoComponent,
     StatisticsComponent,
-    AsideComponent
+    AsideComponent,
+    HomeComponent,
+    FooterComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AppRoutingModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
