@@ -5,16 +5,33 @@
             <p class="animated fadeInRight">One stop solution for .Net developers</p>
         </div>
         <nav class="top-nav">
+            
+                <div class="dropdown animated fadeInDown animation-delay-13">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
+                            <form role="form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-ar btn-primary" type="button">Go!</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
             <ul class="top-nav-social hidden-sm">
                 <li><a href="#" class="animated fadeIn animation-delay-7 twitter"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#" class="animated fadeIn animation-delay-8 facebook"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#" class="animated fadeIn animation-delay-9 instagram"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="#" class="animated fadeIn animation-delay-7 linkedin"><i class="fa fa-linkedin"></i></a></li>
             </ul>
-  
+           
             <div class="dropdown animated fadeInDown animation-delay-11">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Register</a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
+                
+
+                    <a [routerLink]="['/register']" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Register</a>
+                    <!-- <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
                         <form role="form">
                             <h4>Login Form</h4>
     
@@ -54,12 +71,12 @@
                                 <div class="clearfix"></div>
                             </div>
                         </form>
-                    </div>
+                    </div> -->
                 </div> <!-- dropdown -->
   
             <div class="dropdown animated fadeInDown animation-delay-11">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
+                <a [routerLink]="['/login']" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</a>
+                <!-- <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
                     <form role="form">
                         <h4>Login Form</h4>
   
@@ -83,10 +100,10 @@
                             <div class="clearfix"></div>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div> <!-- dropdown -->
   
-            <div class="dropdown animated fadeInDown animation-delay-13">
+            <!-- <div class="dropdown animated fadeInDown animation-delay-13">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
                 <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
                     <form role="form">
@@ -95,10 +112,28 @@
                             <span class="input-group-btn">
                                 <button class="btn btn-ar btn-primary" type="button">Go!</button>
                             </span>
-                        </div><!-- /input-group -->
+                        </div>
                     </form>
                 </div>
-            </div> <!-- dropdown -->
+            </div> -->
+            <!-- dropdown-->
+ 
+           <ul class="nav navbar-nav navbar-right">
+                  
+                      <li  class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Action</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a [routerLink]="['/login']" (click)="Logout()"><span class="glyphicon glyphicon-off"></span> LogOut</a> </li>
+
+                        </ul>
+                      </li>
+           </ul>
+
+           
         </nav>
     </div> <!-- container -->
   </header> <!-- header-full -->

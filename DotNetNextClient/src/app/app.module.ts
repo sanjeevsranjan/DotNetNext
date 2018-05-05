@@ -15,6 +15,10 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppLayoutComponent } from './app-layout/app-layout.component';
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { ComingsoonComponent } from './comingsoon/comingsoon.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 
 
 @NgModule({
@@ -30,7 +34,11 @@ import { SiteLayoutComponent } from './site-layout/site-layout.component';
     HomeComponent,
     FooterComponent,
     AppLayoutComponent,
-    SiteLayoutComponent
+    SiteLayoutComponent,
+    LoginComponent,
+    RegisterComponent,
+    ComingsoonComponent,
+    OurteamComponent
     
   ],
   imports: [

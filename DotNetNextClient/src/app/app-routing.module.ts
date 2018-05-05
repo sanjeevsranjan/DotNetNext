@@ -29,6 +29,10 @@ import { HomeComponent } from './home/home.component';
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
 import { AppLayoutComponent } from './app-layout/app-layout.component';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { ComingsoonComponent } from './comingsoon/comingsoon.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 
 // const routes: Routes = [
     
@@ -57,6 +61,10 @@ const appRoutes: Routes = [
         component: AppLayoutComponent, 
         children: [
              { path: 'contactus', component: ContactusComponent },
+             { path: 'login', component: LoginComponent },
+             { path: 'register', component: RegisterComponent },
+             { path: 'comingsoon', component: ComingsoonComponent },
+             { path: 'ourteam', component: OurteamComponent }
         //   { path: 'profile', component: ProfileComponent }
         ]
     },

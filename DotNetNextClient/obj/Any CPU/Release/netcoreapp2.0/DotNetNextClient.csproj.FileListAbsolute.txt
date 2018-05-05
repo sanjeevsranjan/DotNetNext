@@ -1,0 +1,11 @@
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\bin\Any CPU\Release\netcoreapp2.0\DotNetNextClient.deps.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\bin\Any CPU\Release\netcoreapp2.0\DotNetNextClient.runtimeconfig.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\bin\Any CPU\Release\netcoreapp2.0\DotNetNextClient.runtimeconfig.dev.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\bin\Any CPU\Release\netcoreapp2.0\DotNetNextClient.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\bin\Any CPU\Release\netcoreapp2.0\DotNetNextClient.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\obj\Any CPU\Release\netcoreapp2.0\DotNetNextClient.csprojResolveAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\obj\Any CPU\Release\netcoreapp2.0\DotNetNextClient.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\obj\Any CPU\Release\netcoreapp2.0\DotNetNextClient.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\obj\Any CPU\Release\netcoreapp2.0\DotNetNextClient.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\obj\Any CPU\Release\netcoreapp2.0\DotNetNextClient.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\DotNetNextClient\obj\Any CPU\Release\netcoreapp2.0\DotNetNextClient.pdb
