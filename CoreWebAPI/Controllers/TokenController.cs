@@ -59,13 +59,13 @@ namespace CoreWebAPI.Controllers
         [EnableCors("AllowAll")]
         private User Authenticate(User login)
         {
-            User user=db.UserRepo.GetAll().FirstOrDefault(u => u.UserName == login.UserName && u.Password== login.Password);
+            User user=db.UserRepo.GetAll().FirstOrDefault(u => u.Email == login.Email && u.Password== login.Password);
 
             if (user != null)
             {
-                if (login.UserName == user.UserName && login.Password == user.Password)
+                if (login.Email == user.Email && login.Password == user.Password)
                 {
-                    user = new User { FirstName = login.FirstName, Email = login.Email };
+                    user = new User { Email = login.Email };
                 }
             }
             return user;

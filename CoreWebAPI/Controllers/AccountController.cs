@@ -64,10 +64,10 @@ namespace CoreWebAPI.Controllers
             IEnumerable<Claim> claims = identityClaims.Claims;
             User model = new User()
             {
-                UserName = "Sanjeevr1102", //identityClaims.FindFirst("Username").Value,
-                Email = "Sanjeevr1102@gmail.com",//identityClaims.FindFirst("Email").Value,
-                FirstName ="Sanjeev", //identityClaims.FindFirst("FirstName").Value,
-                LastName ="Ranjan" //identityClaims.FindFirst("LastName").Value
+                //UserName = "Sanjeevr1102", //identityClaims.FindFirst("Username").Value,
+                //Email = "Sanjeevr1102@gmail.com",//identityClaims.FindFirst("Email").Value,
+                //FirstName ="Sanjeev", //identityClaims.FindFirst("FirstName").Value,
+                //LastName ="Ranjan" //identityClaims.FindFirst("LastName").Value
             };
             return model;
         }

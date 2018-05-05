@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule} from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
@@ -19,6 +22,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import { UserService } from './shared/user.service';
 
 
 @NgModule({
@@ -40,10 +44,13 @@ import { OurteamComponent } from './ourteam/ourteam.component';
     ComingsoonComponent,
     OurteamComponent
     
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+    
   ],
   providers: [AppRoutingModule],
   bootstrap: [AppComponent]

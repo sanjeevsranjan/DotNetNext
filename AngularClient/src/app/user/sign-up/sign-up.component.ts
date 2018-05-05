@@ -49,7 +49,6 @@ export class SignUpComponent implements OnInit {
   // }
 
   OnSubmit(form: NgForm) {
-    alert('sddf');
     this.userService.registerUser(form.value)
       .subscribe((data: any) => {
           this.resetForm(form);

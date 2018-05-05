@@ -8,3 +8,4 @@ C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Debug\netcoreapp
 C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Debug\netcoreapp2.0\AngularClient.AssemblyInfo.cs
 C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Debug\netcoreapp2.0\AngularClient.dll
 C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Debug\netcoreapp2.0\AngularClient.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\AngularClient\obj\Debug\netcoreapp2.0\AngularClient.csprojResolveAssemblyReference.cache

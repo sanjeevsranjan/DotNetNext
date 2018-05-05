@@ -30,7 +30,7 @@ namespace CoreWebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:SampleApplicationDB"]));
+            services.AddDbContext<ApplicationContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DotNetNext"]));
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
             services.AddCors(options =>
             {
