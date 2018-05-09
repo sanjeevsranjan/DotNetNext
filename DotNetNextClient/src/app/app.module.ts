@@ -22,7 +22,6 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
-import { UserService } from './shared/user.service';
 
 
 @NgModule({
@@ -49,7 +48,8 @@ import { UserService } from './shared/user.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
     
   ],
   providers: [AppRoutingModule],
