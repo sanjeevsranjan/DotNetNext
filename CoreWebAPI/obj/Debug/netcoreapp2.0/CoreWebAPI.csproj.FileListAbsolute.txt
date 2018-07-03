@@ -15,23 +15,6 @@ C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\CoreWebAPI\b
 C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\CoreWebAPI\bin\Debug\netcoreapp2.0\Repository.dll
 C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\CoreWebAPI\bin\Debug\netcoreapp2.0\Repository.pdb
 C:\Users\sanje\Desktop\Projects\Dot Net Core Apps\WebAPI\CoreWebAPI\CoreWebAPI\bin\Debug\netcoreapp2.0\DomainModels.pdb
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.deps.json
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.runtimeconfig.json
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.runtimeconfig.dev.json
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.dll
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.pdb
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DAL.dll
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DomainModels.dll
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\Repository.dll
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\Repository.pdb
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DomainModels.pdb
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DAL.pdb
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.csprojResolveAssemblyReference.cache
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.csproj.CoreCompileInputs.cache
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.AssemblyInfoInputs.cache
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.AssemblyInfo.cs
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.dll
-C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.pdb
 C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.deps.json
 C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.runtimeconfig.json
 C:\Users\sanje\Desktop\Projects\DotNetProfileAPI\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.runtimeconfig.dev.json
@@ -66,3 +49,21 @@ C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\CoreWebAPI\obj\Debu
 C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.AssemblyInfo.cs
 C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.dll
 C:\Users\sanje\Desktop\DotNetProfile_Backup\DotNetProfileAPI\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.deps.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.runtimeconfig.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.runtimeconfig.dev.json
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\CoreWebAPI.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DAL.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DomainModels.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\Repository.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\Repository.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DomainModels.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.csprojAssemblyReference.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.AssemblyInfoInputs.cache
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.AssemblyInfo.cs
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.csproj.CopyComplete
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.dll
+C:\Users\sanje\Desktop\Projects\DotNetProfile\CoreWebAPI\obj\Debug\netcoreapp2.0\CoreWebAPI.pdb
