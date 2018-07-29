@@ -10,6 +10,12 @@
                 <div class="panel-heading">Register Form</div>
                 <div class="panel-body">
                     <form role="form" #regForm='ngForm' (ngSubmit)="Register(regForm)">
+                       
+                        <div *ngIf="savedscucessfully" class="alert alert-success alert-dismissible">
+                                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                <strong>Registration Succesfull!</strong>
+                        </div>
+                       
                         <div class="form-group">
                             <label for="InputUserName">Full Name<sup>*</sup></label>
                             <!-- <input type="text" class="form-control" name="FullName" required  ngModel > -->

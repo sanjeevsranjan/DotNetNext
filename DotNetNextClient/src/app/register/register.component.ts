@@ -10,9 +10,12 @@ import { NgForm } from '@angular/forms';
   providers:[UserService]
 })
 export class RegisterComponent implements OnInit {
+  savedscucessfully:boolean=false;
   user: User;
   emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
-  constructor(private userService: UserService) { }
+  constructor(private userService: UserService) {
+
+   }
 
   ngOnInit() {
     this.resetForm();
@@ -29,12 +32,14 @@ export class RegisterComponent implements OnInit {
     }
   }
   Register(form: NgForm) {
-    console.log(form.value);
+    //console.log(form.value);
+   
     this.userService.registerUser(form.value)
       .subscribe((data: any) => {
           this.resetForm(form);
           //this.toastr.success('User registration successful');
-          alert('User registration successful')
+         //alert('User registration successful')
+         this.savedscucessfully=true;
       
       });
   }
